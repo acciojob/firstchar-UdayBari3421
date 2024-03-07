@@ -1,6 +1,14 @@
 function firstChar(text) {
-  let ret = text.trim();
-	return ret[0];
+  // your code here
+	const trimmedText = text.trim();
+  
+
+  if (trimmedText === '') {
+    return '';
+  }
+  
+  
+  return trimmedText[0];
 }
 
 // Do not change the code below
